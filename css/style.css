@@ -1,12 +1,13 @@
-.page{
-    background-image: url('/img/background.png') !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 1030px;
-    margin-left: auto;
-    margin-right: auto;
-  
-}
+
+    .page {
+        background-image: url(../img/background.png);
+        background-color: #000000;
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 1030px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 .header-page{
     display: flex;
     justify-content: space-between;
