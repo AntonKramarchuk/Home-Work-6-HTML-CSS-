@@ -1,0 +1,201 @@
+.page{
+    background-image: url('/img/background.png');
+    background-color: #0000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.header-page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+p{
+    color: #FFFFFF; 
+    margin: 0;  
+}
+.logo-page{
+    display: flex
+    
+}
+
+.text{
+    padding-left: 8px;
+   
+
+}
+.secound-text{
+    font-family: 'Roboto', sans-serif;
+    
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 29px;
+   text-transform: uppercase;
+   
+}
+.first-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+}
+.contact{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.logo{
+  
+   
+    position: relative;
+  
+}
+.logo-hover{
+    opacity: 0;
+    position: absolute;
+    
+}
+
+ 
+
+.hover-logo:hover .logo{
+opacity: 0;
+}
+.hover-logo:hover .logo-text
+{
+    color: #F26522;
+    
+}
+.link-logo{
+    text-decoration: none;
+    
+}
+.logo-page:hover .logo-hover{
+    opacity: 1;
+}
+.page-mail:hover ,
+.page-number:hover {
+    color: #F26522;
+}
+.page-mail , .page-number{
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.4s;
+}
+/* header!!!!!!!!!!! */
+.block-travel{
+    display: grid;
+   grid-template-columns: repeat(3, 300px); 
+   grid-template-rows: repeat(2, 1fr);
+   grid-gap: 37px;
+   justify-content: space-between;
+   text-align: center;
+   margin-top: 22px;
+   
+  
+
+}
+.block-price{
+    background-color: #F26522;
+position: absolute;
+
+top: 163px;
+left: auto;
+width: 100%;
+opacity: 0;
+transition: 0.4s;
+
+}
+.description-tours{
+text-decoration: none; 
+position: relative;
+
+
+}
+
+.text-tours{
+    margin-top: 20px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+transition: 0.4s;
+}
+.photo-tours{
+    width: 300px;
+height: 220px;
+}
+.block-price-details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    padding-left: 16px;
+    padding-bottom: 12px;
+    padding-right: 37px;
+    align-items: flex-end;
+    
+    
+
+}
+.from-price{
+    padding-bottom: 8px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 10px;
+}
+.details-block{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+.price{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+
+}
+
+.description-tours:hover .text-tours{
+    color: #F26522;
+}
+
+.description-tours:hover .block-price{
+    opacity: 1;
+    
+}
+.copyright{
+    margin-top: 49px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+text-align: center;
+}
+
+
+
+
+
+
+    
+
+
+
+
+
